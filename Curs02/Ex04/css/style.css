@@ -30,4 +30,29 @@
   border-width: 5px;
 }
 
+.box-1 {
+  width: 1px;
+  height: 1px;
+}
+
+.box-2 {
+  width: 2px;
+  height: 2px;
+}
+
+.box-3 {
+  width: 3px;
+  height: 3px;
+}
+
+.box-4 {
+  width: 4px;
+  height: 4px;
+}
+
+.box-5 {
+  width: 5px;
+  height: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
