@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 ;
 }
 
 
@@ -23,8 +23,6 @@ border-radius: 100%;
   }
 }
 
-
-
 .box-1 {
   background-color: black;
   width: 100px;
@@ -34,3 +32,36 @@ border-radius: 100%;
 
 
 /* punctul 2 */
+
+@keyframes box-2 {
+
+
+      20%{
+    transform: translate(0, calc(100vh - 190px));
+
+      }
+
+      40% {
+        transform: translate(calc(100vh - 190px), calc(100vh - 190px));
+      }
+
+      60% {
+        transform: translate(calc(100vh - 190px), 0);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+      }
+
+      80% {
+        transform: translate(0, calc(100vh - 190px));
+      }
+
+}
+
+.box-2 {
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  animation: box-2 8s ease-out  infinite;
+
+}
