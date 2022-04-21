@@ -1,5 +1,7 @@
+@import './../node_modules/bootstrap/scss/bootstrap.scss';
+
 .container {
-  margin: 15px auto;
+  margin: 16px auto;
 }
 
 .col {
@@ -8,7 +10,7 @@
 }
 
 .ott {
-  background: red; 
+  background: red;
 }
 
 .tbp {
